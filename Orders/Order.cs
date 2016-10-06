@@ -14,7 +14,7 @@ namespace Bangazon.Orders
     }
 
     private Guid _orderNumber = System.Guid.NewGuid();
-    
+     
     public Guid orderNumber {
       get {
         return _orderNumber;
