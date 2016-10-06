@@ -13,7 +13,7 @@ namespace Bangazon.Orders
       }
     }
 
-    private Guid _orderNumber = System.Guid.NewGuid();
+    private Guid _orderNumber = Guid.NewGuid();
     
     public Guid orderNumber {
       get {

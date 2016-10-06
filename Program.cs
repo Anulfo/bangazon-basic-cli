@@ -6,7 +6,7 @@ using Bangazon.Payments;
 namespace Bangazon
 {
     public class Program
-    {
+    { 
         public static void Main(string[] args)
         {
             // Create a customer and grab first/last name from first argument
