@@ -28,13 +28,20 @@ namespace Bangazon.Orders
     public string listProducts()
     {
       string output = "";
-
       foreach (string product in _products)
       {
         output += $"\nYou ordered {product}";
       }
-
       return output;
+    }
+
+    public bool removeProduct(string product)
+    {
+      return _products.Remove(product);
+    }
+    public void removeProduct()
+    {
+      _products.Clear();
     }
   }
 }

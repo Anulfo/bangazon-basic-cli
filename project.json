@@ -4,7 +4,11 @@
     "debugType": "portable",
     "emitEntryPoint": true
   },
-  "dependencies": {},
+  "testRunner": "xunit",
+  "dependencies": {
+    "xunit": "2.2.0-beta2-build3300",
+    "dotnet-test-xunit": "2.2.0-preview-build1029"
+  },
   "frameworks": {
     "netcoreapp1.0": {
       "dependencies": {
@@ -17,3 +21,4 @@
     }
   }
 }
+
